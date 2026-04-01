@@ -5,7 +5,7 @@ description = "core_module_1_individual_health_wellness_with_data_sovereignty_co
 authors = [{ name = "Your Name", email = "you@example.com" }]
 requires-python = ">=3.10,<3.14"
 dependencies = [
-    "crewai[litellm,tools]==1.11.0",
+    "crewai[litellm,tools]==1.12.2",
     "pydantic",
 ]
 
