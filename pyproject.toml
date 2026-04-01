@@ -1,0 +1,28 @@
+[project]
+name = "core_module_1_individual_health_wellness_with_data_sovereignty_core_api_for_all_modules"
+version = "0.1.0"
+description = "core_module_1_individual_health_wellness_with_data_sovereignty_core_api_for_all_modules using crewAI"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.10,<3.14"
+dependencies = [
+    "crewai[litellm,tools]==1.11.0",
+    "pydantic",
+]
+
+[project.scripts]
+core_module_1_individual_health_wellness_with_data_sovereignty_core_api_for_all_modules = "core_module_1_individual_health_wellness_with_data_sovereignty_core_api_for_all_modules.main:run"
+run_crew = "core_module_1_individual_health_wellness_with_data_sovereignty_core_api_for_all_modules.main:run"
+train = "core_module_1_individual_health_wellness_with_data_sovereignty_core_api_for_all_modules.main:train"
+replay = "core_module_1_individual_health_wellness_with_data_sovereignty_core_api_for_all_modules.main:replay"
+test = "core_module_1_individual_health_wellness_with_data_sovereignty_core_api_for_all_modules.main:test"
+run_with_trigger = "core_module_1_individual_health_wellness_with_data_sovereignty_core_api_for_all_modules.main:run_with_trigger"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "crew"
+
+[tool.uv]
+override-dependencies = ["litellm<=1.82.6"]

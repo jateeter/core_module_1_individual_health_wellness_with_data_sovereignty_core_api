@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /Users/johnt/workspace/GitHub/core_module_1_individual_health_wellness_with_data_sovereignty_core_api_for_all_modules_v2_crewai-project -maxdepth 3 -type f -name *.toml -o -name *.txt -o -name *.json -o -name Dockerfile* -o -name docker-compose* -o -name Makefile* -o -name .env*)",
+      "Bash(find /Users/johnt/workspace/GitHub/core_module_1_individual_health_wellness_with_data_sovereignty_core_api_for_all_modules_v2_crewai-project -maxdepth 2 -name requirements* -o -name *.txt -o -name poetry.lock -o -name *.lock)",
+      "Bash(brew upgrade:*)",
+      "Bash(uv sync:*)",
+      "Bash(uv build:*)",
+      "Bash(uv run:*)"
+    ]
+  }
+}

@@ -1,0 +1,2 @@
+# core_module_1_individual_health_wellness_with_data_sovereignty_core_api_for_all_modules_v2_crewai-project
+OpenCommons Health: Module 1 - Core Individual Services
