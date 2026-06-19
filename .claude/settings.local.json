@@ -6,7 +6,8 @@
       "Bash(brew upgrade:*)",
       "Bash(uv sync:*)",
       "Bash(uv build:*)",
-      "Bash(uv run:*)"
+      "Bash(uv run:*)",
+      "Bash(uv pip:*)"
     ]
   }
 }
